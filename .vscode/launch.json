@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "c:/Users/fonse/Desktop/dev_bianca/estacio/estacio_eng_software/2025.4/introd_program_computadores/programando_em_c_estacio",
+      "program": "c:/Users/fonse/Desktop/dev_bianca/estacio/estacio_eng_software/2025.4/introd_program_computadores/programando_em_c_estacio/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

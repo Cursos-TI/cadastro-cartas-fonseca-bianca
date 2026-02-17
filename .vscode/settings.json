@@ -1,0 +1,21 @@
+{
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": true,
+  "code-runner.runInTerminal": true, 
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.executorMap": {
+    "c": "gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "chcp 65001"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
